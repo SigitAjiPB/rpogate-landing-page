@@ -17,27 +17,27 @@
 
 
         <section id="navContainer">
-            <nav class="fixed max-w-screen-2xl bg-slate-50 right-0 left-0 max-h-max">
-                <section id="navWrapper" class="flex justify-between px-6 py-5">
+            <nav class="fixed max-w-screen-2xl bg-slate-50 right-0 left-0 max-h-max text-sm font-semibold sm:text-inherit">
+                <section id="navWrapper" class="flex justify-between items-center px-6 py-5">
                     <div id="logo">
                         <button class="flex justify-between items-center gap-4">
                             <img src="../img/rpogate-logo.png" class="h-8">
-                            <span class="hidden">Rpogate</span>
+                            <span class="hidden sm:block">Rpogate</span>
                         </button>
                     </div>
 
                     <div id="loginBar" class="flex items-center justify-between gap-2">
                         <button id="loginBtn" class="px-4 py-3 rounded-lg hover:bg-slate-100">Log in</button>
-                        <button id="daftarGratisBtn" class="px-4 py-3 bg-sky-300 rounded-lg text-white hover:bg-sky-400 transition-all duration-200">Daftar Gratis</button>
+                        <button id="daftarGratisBtn" class="px-4 py-3 bg-sky-400 rounded-lg text-white hover:bg-sky-500 transition-all duration-200">Daftar Gratis</button>
                     </div>
                 </section>
             </nav>
         </section>
 
-        <section id="loginwrapper" class="hidden">
-            <div class=" bg-black h-screen relative top-0 bottom-0 right-0 left-0 bg-opacity-40 px-6 py-14 ">
-                <section id="loginMainWrapper" class="w-full h-full ">
-                    <div id="loginContainer" class="bg-white h-[32rem] px-8 py-6 rounded-md overflow-y-scroll flex flex-col scrollbar-thumb-transparent scrollbar-none">
+        <section id="loginwrapper" class="">
+            <div class=" bg-black h-screen relative top-0 bottom-0 right-0 left-0 bg-opacity-40 px-6 py-14 md:flex md:justify-center md:items-center">
+                <section id="loginMainWrapper" class="grid ">
+                    <div id="loginContainer" class="bg-white h-[42rem] px-8 py-7 rounded-md overflow-y-scroll flex flex-col scrollbar-thumb-transparent scrollbar-none md:w-[36em]">
                         <div class="mb-10"><p class="text-xl">Log in</p></div>
 
                         <div class="flex flex-col gap-8">
@@ -54,15 +54,19 @@
                             <button class="h-14 border-[3px] mb-4 border-slate-300 rounded text-slate-400 text-sm hover:border-slate-500">
                                 <span>Lanjutkan dengan Google</span>
                             </button>
-                            <button class="h-14 border-[3px] mb-4 border-slate-300 rounded text-slate-400 text-sm hover:border-slate-500">
-                                <span>Lanjutkan dengan Google</span>
+                            <button class="h-14 border-[3px] mb-4 border-slate-300 rounded text-blue-600 text-sm hover:border-slate-500">
+                                <span>Lanjutkan dengan facebook</span>
                             </button>
-                            <button class="h-14 border-[3px] mb-4 border-slate-300 rounded text-slate-400 text-sm hover:border-slate-500">
-                                <span>Lanjutkan dengan Google</span>
+                            <button class="h-14 border-[3px] mb-4 border-slate-300 rounded text-blue-400 text-sm hover:border-slate-500">
+                                <span>Lanjutkan dengan Twitter</span>
                             </button>
-                            <button class="h-14 border-[3px] mb-4 border-slate-300 rounded text-slate-400 text-sm hover:border-slate-500">
-                                <span>Lanjutkan dengan Google</span>
+                            <button class="h-14 border-[3px] mb-4 border-slate-300 rounded text-black text-sm hover:border-slate-500">
+                                <span>Lanjutkan dengan Apple</span>
                             </button>
+                        </div>
+
+                        <div class="flex justify-center items-center mt-2">
+                            <span>Tidak punya akun? <a href="#" class="text-blue-600">Daftar</a></span>
                         </div>
 
                     </div>
