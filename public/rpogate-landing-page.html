@@ -13,16 +13,16 @@
 <body class="text-slate-600">
     
 
-    <main id="container" class="">
+    <main id="container" class="flex flex-col">
 
 
         <section id="navContainer">
             <nav class="fixed max-w-screen-2xl bg-slate-50 right-0 left-0 max-h-max text-sm font-semibold sm:text-inherit">
-                <section id="navWrapper" class="flex justify-between items-center px-6 py-5">
+                <section id="navWrapper" class="flex justify-between items-center px-6 py-3 sm:py-5">
                     <div id="logo">
                         <button class="flex justify-between items-center gap-4">
                             <img src="../img/rpogate-logo.png" class="h-8">
-                            <span class="hidden sm:block">Rpogate</span>
+                            <span class="hidden font-semibold sm:block sm:text-lg">Rpogate</span>
                         </button>
                     </div>
 
@@ -34,9 +34,9 @@
             </nav>
         </section>
 
-        <section id="loginwrapper" class="">
-            <div class=" bg-black h-screen relative top-0 bottom-0 right-0 left-0 bg-opacity-40 px-7 py-16 md:flex md:justify-center md:items-center">
-                <section id="loginMainWrapper" class="grid ">
+        <section id="loginwrapper" class="hidden">
+            <div class="flex items-center justify-center bg-black h-screen relative top-0 bottom-0 right-0 left-0 bg-opacity-40 py-16 md:flex md:justify-center md:items-center">
+                <section id="loginMainWrapper">
                     <div id="loginContainer" class="bg-white h-[35em] px-8 py-7 rounded-md overflow-y-scroll flex flex-col scrollbar-thumb-transparent scrollbar-none md:w-[36em]">
                         <div class="mb-10"><p class="text-xl">Log in</p></div>
 
@@ -71,12 +71,34 @@
 
                     </div>
                 </section>
-
             </div>
         </section>
 
 
 
+
+
+        <section class="mt-60">
+
+            <section class="w-full bg-slate-50">
+                <div class="flex justify-center items-center flex-wrap gap-4">
+                    <h1 class="max-w-none text-2xl font-semibold text-center w-full sm:text-3xl">
+                        Belajar Coding dari Nol <br> Hingga Menjadi Developer Profesional.
+                    </h1>
+                    <div class="w-full flex justify-center items-center gap-6">
+                        <p>3,000,000 <span>pengguna</span></p>
+                        <p>aktif di <span>100+</span>negara</p></p>
+                    </div>
+                    <button class="bg-sky-400 rounded-lg text-white px-4 py-3 text-sm hover:bg-sky-500">Mulai Sekarang</button>
+                </div>
+
+            </section>
+
+
+
+
+
+        </section>
 
 
 
