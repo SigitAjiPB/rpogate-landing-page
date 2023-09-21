@@ -13,16 +13,16 @@
 <body class="text-slate-600">
     
 
-    <main id="container" class="">
+    <main id="container" class="flex flex-col">
 
 
         <section id="navContainer">
             <nav class="fixed max-w-screen-2xl bg-slate-50 right-0 left-0 max-h-max text-sm font-semibold sm:text-inherit">
-                <section id="navWrapper" class="flex justify-between items-center px-6 py-5">
+                <section id="navWrapper" class="flex justify-between items-center px-6 py-3 sm:py-5">
                     <div id="logo">
                         <button class="flex justify-between items-center gap-4">
                             <img src="../img/rpogate-logo.png" class="h-8">
-                            <span class="hidden sm:block">Rpogate</span>
+                            <span class="hidden font-semibold sm:block sm:text-lg">Rpogate</span>
                         </button>
                     </div>
 
@@ -34,16 +34,16 @@
             </nav>
         </section>
 
-        <section id="loginwrapper" class="">
-            <div class=" bg-black h-screen relative top-0 bottom-0 right-0 left-0 bg-opacity-40 px-6 py-14 md:flex md:justify-center md:items-center">
-                <section id="loginMainWrapper" class="grid ">
-                    <div id="loginContainer" class="bg-white h-[42rem] px-8 py-7 rounded-md overflow-y-scroll flex flex-col scrollbar-thumb-transparent scrollbar-none md:w-[36em]">
+        <section id="loginwrapper" class="hidden">
+            <div class="flex items-center justify-center bg-black h-screen relative top-0 bottom-0 right-0 left-0 bg-opacity-40 py-16 md:flex md:justify-center md:items-center">
+                <section id="loginMainWrapper">
+                    <div id="loginContainer" class="bg-white h-[35em] px-8 py-7 rounded-md overflow-y-scroll flex flex-col scrollbar-thumb-transparent scrollbar-none md:w-[36em]">
                         <div class="mb-10"><p class="text-xl">Log in</p></div>
 
                         <div class="flex flex-col gap-8">
-                            <input type="text" class="border border-slate-300 h-14 rounded-md">
-                            <input type="text" class="border border-slate-300 h-14 rounded-md bg-blue-100">
-                            <button class="bg-sky-400 h-14 rounded-md text-white">Log in</button>
+                            <input type="email" class="border border-slate-300 h-12 rounded-md px-6 outline-none valid:border-sky-300">
+                            <input type="password" class="border border-slate-300 h-12 rounded-md bg-blue-100">
+                            <button class="bg-sky-400 h-12 rounded-md text-white">Log in</button>
                         </div>
 
                         <div class="w-full flex items-center justify-center text-center mt-6"><p id="clickHereText" class="text-slate-400"><a href="#" class="text-blue-600">Klick di sini</a> jika Anda lupa kata sandi</p></div>
@@ -51,16 +51,16 @@
                         <div class="w-full flex items-center justify-center text-center mt-8 mb-6 text-sm"><span class="w-28 border border-slate-300 inline-block"></span><span class="text-slate-400 mx-1">atau log in dengan</span><span class="w-28 border border-slate-300 inline-block"></span></div>
 
                         <div class="flex flex-col gap-3"> 
-                            <button class="h-14 border-[3px] mb-4 border-slate-300 rounded text-slate-400 text-sm hover:border-slate-500">
+                            <button class="h-12 border-[3px] border-slate-300 rounded text-slate-400 text-sm hover:border-slate-500">
                                 <span>Lanjutkan dengan Google</span>
                             </button>
-                            <button class="h-14 border-[3px] mb-4 border-slate-300 rounded text-blue-600 text-sm hover:border-slate-500">
+                            <button class="h-12 border-[3px] border-slate-300 rounded text-blue-600 text-sm hover:border-slate-500">
                                 <span>Lanjutkan dengan facebook</span>
                             </button>
-                            <button class="h-14 border-[3px] mb-4 border-slate-300 rounded text-blue-400 text-sm hover:border-slate-500">
+                            <button class="h-12 border-[3px] border-slate-300 rounded text-blue-400 text-sm hover:border-slate-500">
                                 <span>Lanjutkan dengan Twitter</span>
                             </button>
-                            <button class="h-14 border-[3px] mb-4 border-slate-300 rounded text-black text-sm hover:border-slate-500">
+                            <button class="h-12 border-[3px] border-slate-300 rounded text-black text-sm hover:border-slate-500">
                                 <span>Lanjutkan dengan Apple</span>
                             </button>
                         </div>
@@ -71,12 +71,34 @@
 
                     </div>
                 </section>
-
             </div>
         </section>
 
 
 
+
+
+        <section class="mt-60">
+
+            <section class="w-full bg-slate-50">
+                <div class="flex justify-center items-center flex-wrap gap-4">
+                    <h1 class="max-w-none text-2xl font-semibold text-center w-full sm:text-3xl">
+                        Belajar Coding dari Nol <br> Hingga Menjadi Developer Profesional.
+                    </h1>
+                    <div class="w-full flex justify-center items-center gap-6">
+                        <p>3,000,000 <span>pengguna</span></p>
+                        <p>aktif di <span>100+</span>negara</p></p>
+                    </div>
+                    <button class="bg-sky-400 rounded-lg text-white px-4 py-3 text-sm hover:bg-sky-500">Mulai Sekarang</button>
+                </div>
+
+            </section>
+
+
+
+
+
+        </section>
 
 
 
